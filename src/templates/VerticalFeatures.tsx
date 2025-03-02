@@ -3,27 +3,27 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Our Pet Services"
+    description="Professional and caring pet services in Aviemore and surrounding areas."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Dog Walking"
+      description="Regular walks and exercise for your furry friend. We provide individual or group walks, tailored to your dog's energy level and socialization needs."
       image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      imageAlt="Dog walking service"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Pet Sitting"
+      description="Home visits for your pets while you're away. We provide feeding, playtime, and lots of attention to keep your pets happy and comfortable in their familiar environment."
       image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      imageAlt="Pet sitting service"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Specialised Care"
+      description="Tailored care for pets with unique needs, including chickens, small animals, and pets requiring extra attention. We adapt our services to ensure every pet receives the specific care they need."
       image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      imageAlt="Specialised pet care service"
     />
   </Section>
 );
