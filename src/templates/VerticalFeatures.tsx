@@ -4,7 +4,7 @@ import { Section } from '../layout/Section';
 const VerticalFeatures = () => (
   <Section
     title="Our Pet Services"
-    description="Professional and caring pet services in Aviemore and surrounding areas."
+    description="Professional and caring pet services in Aviemore, Kincraig, Boat of Garten, Carrbridge and surrounding areas."
   >
     <VerticalFeatureRow
       title="Dog Walking"
