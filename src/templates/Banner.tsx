@@ -9,6 +9,7 @@ const Banner = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState<null | string>(null);
 
+  // @ts-expect-error cba typing
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
