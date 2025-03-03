@@ -3,6 +3,8 @@ import className from 'classnames';
 type IButtonProps = {
   xl?: boolean;
   children: string;
+  onClick?: () => void;
+  type?: 'button' | 'submit' | 'reset';
 };
 
 const Button = (props: IButtonProps) => {
@@ -14,7 +16,11 @@ const Button = (props: IButtonProps) => {
   });
 
   return (
-    <div className={btnClass}>
+    <button
+      className={btnClass}
+      onClick={props.onClick}
+      type={props.type || 'button'}
+    >
       {props.children}
 
       <style jsx>
@@ -40,7 +46,7 @@ const Button = (props: IButtonProps) => {
           }
         `}
       </style>
-    </div>
+    </button>
   );
 };
 
