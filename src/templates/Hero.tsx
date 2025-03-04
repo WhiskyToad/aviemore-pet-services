@@ -1,17 +1,16 @@
 import { Background } from '../background/Background';
-import { Section } from '../layout/Section';
 import { Logo } from './Logo';
 
 const Hero = () => (
   <Background color="bg-gray-100">
-    <Section yPadding="py-6">
+    <div className="text-center">
       <Logo xl />
-    </Section>
+    </div>
 
     {/* Hero Image Section */}
     <div className="relative mx-0 flex h-[500px] items-center justify-center bg-[url('/assets/images/banner.png')] bg-cover bg-center bg-no-repeat">
       {/* Dark overlay for contrast */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-50" />
 
       {/* Centered Text */}
       <header className="relative z-10 max-w-2xl px-6 text-center text-white">
