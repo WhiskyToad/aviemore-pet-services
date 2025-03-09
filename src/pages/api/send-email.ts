@@ -28,7 +28,7 @@ export default async function handler(
     const { email, message } = req.body;
     const response = await resend.emails.send({
       from: 'websitequery@resend.dev',
-      to: 'stevencraig321@gmail.com',
+      to: process.env.RESEND_DELIVERY_EMAIL ?? '',
       subject: 'New Contact Form Submission',
       html: `<p><strong>Email:</strong> ${email}</p><p><strong>Message:</strong> ${message}</p>`,
     });
