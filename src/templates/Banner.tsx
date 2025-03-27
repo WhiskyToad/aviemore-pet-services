@@ -44,7 +44,7 @@ const Banner = () => {
         className="mx-auto max-w-md rounded-lg border-2 border-gray-100 bg-white p-8 shadow-xl"
       >
         <h2 className="mb-6 text-center text-3xl font-bold text-gray-800">
-          Contact Us
+          Contact Me
         </h2>
         <div className="mb-6">
           <label

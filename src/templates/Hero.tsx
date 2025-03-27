@@ -26,7 +26,7 @@ const Hero = () => (
     {/* Description Below */}
     <p className="mx-auto mt-8 max-w-screen-md px-6 pb-8 text-center text-lg leading-relaxed text-gray-800">
       Providing trusted, reliable pet care services in the heart of the
-      Cairngorms. We offer professional dog walking, pet sitting, and customized
+      Cairngorms. I offer professional dog walking, pet sitting, and customized
       care for your beloved pets.
     </p>
   </Background>
