@@ -33,26 +33,41 @@ const reviews = [
     review: `Our dogs love their trips out with Katy. She always sends loads of pics of them having fun too. Highly recommend.`,
     rating: 5,
   },
+  {
+    name: 'Jamie T.',
+    review: (
+      <>
+        I&apos;ve never seen my dog so excited to see someone! &quot;The
+        highlight of her week&quot; is an understatement.{' '}
+      </>
+    ),
+    rating: 5,
+  },
 ];
 
 const Reviews = () => (
   <Section
-    title="Client Reviews"
-    description="Hear from my satisfied clients about their experiences with my pet services."
+    title="What Pet Parents Say"
+    description="The trust of our clients is our greatest achievement. Here's what they have to say about our services."
   >
     <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-3">
       {reviews.map((review, index) => (
         <article
           key={index}
-          className="flex flex-col justify-between rounded-lg border-2 border-gray-300 p-4 text-center"
+          className="flex flex-col justify-between rounded-lg border-2 border-primary-200 bg-white p-6 shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg"
           aria-labelledby={`review-title-${index}`}
         >
-          <h3 id={`review-title-${index}`} className="text-lg font-semibold">
+          <h3
+            id={`review-title-${index}`}
+            className="text-lg font-semibold text-primary-700"
+          >
             {review.name}
           </h3>
-          <p className="mt-2 text-gray-600">{review.review}</p>
+          <p className="my-4 italic text-gray-600">
+            &quot;{review.review}&quot;
+          </p>
           <div
-            className="mt-4 text-xl text-yellow-500"
+            className="mt-2 text-xl text-yellow-500"
             role="img"
             aria-label={`Rating: ${review.rating} out of 5 stars`}
           >

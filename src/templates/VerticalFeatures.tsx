@@ -3,25 +3,25 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="My Pet Services"
-    description="Professional and caring pet services in Aviemore, Kincraig, Boat of Garten, Carrbridge and surrounding areas."
+    title="Expert Pet Services"
+    description="Professional, reliable, and loving care for your furry companions in Aviemore and surrounding areas."
   >
     <VerticalFeatureRow
       title="Dog Walking"
-      description="Regular walks and exercise for your furry friend. I provide individual or group walks, tailored to your dog's energy level and socialization needs."
+      description="Keep your dog healthy and happy with our tailored walking services. Whether they need a quick stroll or an energetic adventure, each walk is customised to your dog's unique personality and energy level."
       image="/assets/images/feature.jpg"
       imageAlt="Dog walking service"
     />
     <VerticalFeatureRow
       title="Pet Sitting"
-      description="Home visits for your pets while you're away. I provide feeding, playtime, and lots of attention to keep your pets happy and comfortable in their familiar environment."
+      description="Peace of mind while you're away. Our pet sitting service includes regular home visits, feeding, playtime, and lots of TLC. Your pets will remain comfortable in their familiar environment with all the care they need. Please note: This is in your home only for now."
       image="/assets/images/feature2.jpg"
       imageAlt="Pet sitting service"
       reverse
     />
     <VerticalFeatureRow
       title="Specialised Care"
-      description="Tailored care for pets with unique needs, including chickens, small animals, and pets requiring extra attention. I adapt my services to ensure every pet receives the specific care they need."
+      description="Every pet is unique. From administering medication to caring for exotic pets, our specialised services ensure that animals with specific needs receive expert attention tailored precisely to their requirements."
       image="/assets/images/feature3.jpg"
       imageAlt="Specialised pet care service"
     />

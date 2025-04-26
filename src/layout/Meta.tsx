@@ -46,6 +46,11 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/favicon.ico`}
           key="favicon"
         />
+        <meta name="theme-color" content="#7CB342" key="theme-color" />
+        <meta
+          name="keywords"
+          content="pet services, dog walking, pet sitting, aviemore, cairngorms, pet care"
+        />
       </Head>
       <NextSeo
         title={props.title}
@@ -57,6 +62,14 @@ const Meta = (props: IMetaProps) => {
           url: props.canonical,
           locale: AppConfig.locale,
           site_name: AppConfig.site_name,
+          images: [
+            {
+              url: `${router.basePath}/assets/images/social-banner.jpg`,
+              width: 1200,
+              height: 630,
+              alt: 'Aviemore Pet Services',
+            },
+          ],
         }}
       />
     </>
