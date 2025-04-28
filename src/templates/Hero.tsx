@@ -43,26 +43,27 @@ const Hero = () => {
         {/* Centered Text */}
         <header className="relative z-10 max-w-2xl rounded-lg bg-black bg-opacity-30 p-6 text-center text-white">
           <h1 className="text-5xl font-extrabold leading-tight text-white drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)]">
-            Trusted Pet Care in the Heart of Aviemore
+            Trusted Pet care In Aviemore and Surrounding Areas
           </h1>
           <p className="mt-4 text-2xl font-semibold text-gray-100 drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
-            Your Pet&apos;s Happiness, Our Priority
+            Your Pet’s Happiness is my Priority
           </p>
           <a
             href="#contact"
             className="mt-8 inline-block"
             aria-label="Book a pet service"
           >
-            <Button xl>Contact Me</Button>
+            <Button xl>Contact Katy</Button>
           </a>
         </header>
       </div>
 
       {/* Description Below */}
       <p className="mx-auto mt-8 max-w-screen-md px-6 pb-8 text-center text-lg leading-relaxed text-gray-800">
-        Providing trusted, reliable pet care services in the heart of the
-        Cairngorms. I bring a genuine lifelong love for animals and ensure your
-        pets receive the attention they deserve.
+        Fully insured and police-checked dog walker providing group and solo
+        walks on a regular or adhoc basis. Also available is a pop-in service
+        providing trusted care for your furry friends in your own home whilst
+        you are away.
       </p>
     </Background>
   );
