@@ -49,11 +49,11 @@ const Hero = () => {
             Your Pet’s Happiness is my Priority
           </p>
           <a
-            href="#contact"
+            href="mailto:katy@aviemorepetservices.co.uk"
             className="mt-8 inline-block"
-            aria-label="Book a pet service"
+            aria-label="Email Katy"
           >
-            <Button xl>Contact Katy</Button>
+            <Button xl>Email Katy</Button>
           </a>
         </header>
       </div>
