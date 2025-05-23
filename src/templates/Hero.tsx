@@ -46,15 +46,19 @@ const Hero = () => {
             Trusted Pet care In Aviemore and Surrounding Areas
           </h1>
           <p className="mt-4 text-2xl font-semibold text-gray-100 drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
-            Your Pet’s Happiness is my Priority
+            Your Pet&quot;s Happiness is my Priority
           </p>
-          <a
-            href="mailto:katy@aviemorepetservices.co.uk"
-            className="mt-8 inline-block"
-            aria-label="Email Katy"
-          >
-            <Button xl>Email Katy</Button>
-          </a>
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
+            <a
+              href="mailto:katy@aviemorepetservices.co.uk"
+              aria-label="Email Katy"
+            >
+              <Button xl>Email Katy</Button>
+            </a>
+            <a href="tel:+447443656966" aria-label="Call Katy">
+              <Button xl>Call Katy</Button>
+            </a>
+          </div>
         </header>
       </div>
 
