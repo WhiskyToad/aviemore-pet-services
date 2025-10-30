@@ -1,5 +1,6 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
+import { About } from './About';
 import { Banner } from './Banner';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
@@ -11,6 +12,7 @@ const Base = () => (
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Hero />
     <Reviews />
+    <About />
     <VerticalFeatures />
 
     {/* Facebook Promotion Section */}

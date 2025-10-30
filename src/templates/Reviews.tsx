@@ -36,7 +36,10 @@ const reviews = [
 ];
 
 const Reviews = () => (
-  <Section title="Client Reviews" description="Happy pets - happy life!">
+  <Section
+    title="Client Reviews"
+    description="Here's what my happy clients have to say about the service I provide"
+  >
     <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-3">
       {reviews.map((review, index) => (
         <article

@@ -36,19 +36,22 @@ const Hero = () => {
       </div>
 
       {/* Hero Image Section */}
-      <div className="relative mx-0 flex h-[500px] items-center justify-center bg-[url('/assets/images/banner.png')] bg-cover bg-center bg-no-repeat">
-        {/* Dark overlay for contrast */}
-        <div className="absolute inset-0 bg-black bg-opacity-50" />
+      <div className="relative mx-0 flex min-h-[500px] items-center justify-center bg-[url('/assets/images/banner.png')] bg-cover bg-center bg-no-repeat py-12 md:min-h-[600px]">
+        {/* Softer overlay for contrast */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/60" />
 
         {/* Centered Text */}
-        <header className="relative z-10 max-w-2xl rounded-lg bg-black bg-opacity-30 p-6 text-center text-white">
-          <h1 className="text-5xl font-extrabold leading-tight text-white drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)]">
-            Trusted Pet care In Aviemore and Surrounding Areas
+        <header className="relative z-10 mx-4 max-w-4xl rounded-xl border-4 border-white/30 bg-white/95 px-6 py-10 text-center shadow-2xl md:px-12 md:py-14">
+          <h1 className="text-4xl font-bold leading-tight text-gray-900 md:text-5xl lg:text-6xl">
+            Trusted Pet Care
           </h1>
-          <p className="mt-4 text-2xl font-semibold text-gray-100 drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
-            Your Pet&quot;s Happiness is my Priority
+          <p className="mt-4 text-lg font-medium text-gray-700 md:text-xl">
+            Covering Aviemore, Carrbridge, Boat of Garten and Glenmore area
           </p>
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
+          <p className="mt-3 text-xl font-semibold text-primary-600 md:text-2xl">
+            Keeping your pets happy
+          </p>
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center">
             <a
               href="mailto:katy@aviemorepetservices.co.uk"
               aria-label="Email Katy"
@@ -64,10 +67,10 @@ const Hero = () => {
 
       {/* Description Below */}
       <p className="mx-auto mt-8 max-w-screen-md px-6 pb-8 text-center text-lg leading-relaxed text-gray-800">
-        Fully insured and police-checked dog walker providing group and solo
-        walks on a regular or adhoc basis. Also available is a pop-in service
-        providing trusted care for your furry friends in your own home whilst
-        you are away.
+        Fully insured and police checked dog walker providing group and solo
+        walks on a regular or adhoc basis. Cat and other pet Pop in Services
+        available providing trusted care for your beloved pets in your home
+        whilst you are away.
       </p>
     </Background>
   );
